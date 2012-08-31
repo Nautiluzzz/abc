@@ -1,4 +1,6 @@
 Abc::Application.routes.draw do
+  get "helloworld", :to => "welcome#helloworld"
+
   get "welcome/index"
 
   # The priority is based upon order of creation:
